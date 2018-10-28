@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0 50px;
+}
+
+div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+video {
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0;
+}
