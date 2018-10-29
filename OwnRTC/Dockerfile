@@ -32,7 +32,7 @@ RUN chown -R nobody:nogroup $APPDIR && chmod -R a-w $APPDIR && ls -ld
 USER nobody
 
 # Ports > 1024 since we're not root.
-EXPOSE 8080 8443
+EXPOSE 80 443
 
 ENV SYLAPS_ENV all
 
